@@ -11,6 +11,13 @@ In conclusion, LegalEase's visionary approach, defensibility, and niche position
 ## Presentation 
 [Legal Ease PPT](https://drive.google.com/file/d/1AUda2efRmrk-GEpUSZ_0nmG7TncdezGi/view?usp=sharing)
 
+## Code Resources
+[Legal Ease backend](https://github.com/PranavChauhan22/legal-ease-backend) \
+[Legal Ease Portal](https://github.com/PranavChauhan22/legal-ease)
+
+## Tech-Stack
+
+
 ## Tech-Stack
 
 - React.js
