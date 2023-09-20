@@ -17,9 +17,6 @@ In conclusion, LegalEase's visionary approach, defensibility, and niche position
 
 ## Tech-Stack
 
-
-## Tech-Stack
-
 - React.js
 - Node.js
 - React Native
