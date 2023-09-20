@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Legal Ease (SIH Problem Statement)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Problem ID and Theme: SIH1286 and Miscellaneous \
+Problem Statement: Incentives based design for onboarding Legal Service Providers such as Advocates, Arbitrators, and Mediators on e-Market Place for extending Legal Services to Citizens in India.
 
-## Available Scripts
+## Summary
+LegalEase, our pioneering legal tech platform, embodies the future of accessible, secure, and user-centric legal services. Serving both lawyers and clients, it streamlines connections, enhances communication, and provides vital legal insights. With an extensive database of legal professionals and advanced security measures, it ensures trust and reliability.
+LegalEase's innovative chatbot, interactive chatbox, and real-time updates offer an unparalleled user experience, empowering individuals and businesses. Its scalability, robust technology stack, and commitment to user feedback position it as a market leader. From individuals seeking advice to organizations requiring specialized counsel, LegalEase caters to all.\
+In conclusion, LegalEase's visionary approach, defensibility, and niche positioning signify its potential to transform the legal services landscape, benefitting thousands globally. Its advanced tech stack reinforces client security, paving the way for a future where legal support is just a click away.
 
-In the project directory, you can run:
 
-### `npm start`
+## Tech-Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Node.js
+- React Native
+- Firebase
+- Google Cloud
+- MongoDB
+- Kafka
+- Elastic Search
+- Native-Base
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## SIH Prototype Screenshots
+- [SIH SS 1](https://i.ibb.co/grwBT9J/Whats-App-Image-2023-09-15-at-10-38-01-AM.jpg")
+- [SIH SS 2](https://i.ibb.co/3Nk8Dt3/Whats-App-Image-2023-09-15-at-10-37-01-AM.jpg)
+- [SIH SS 3](https://i.ibb.co/Yfjr9r7/Whats-App-Image-2023-09-15-at-10-37-01-AM-2.jpg")
+- [SIH SS 4](https://i.ibb.co/9NVGS91/Whats-App-Image-2023-09-15-at-10-37-01-AM-1.jpg)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## SIH App Screenshots: Legal Ease
+![image1](https://i.ibb.co/hKpn6Cr/13-Pro-1.png)
+![image2](https://i.ibb.co/jfH85F1/13-Pro-3.png)
+![image3](https://i.ibb.co/dgctyHW/13-Pro-10.png)
+![image4](https://i.ibb.co/FsKWDyz/13-Pro-19.png)
+![image5](https://i.ibb.co/KhmYSvY/13-Pro-22.png)
+![image6](https://i.ibb.co/bdXP7xB/13-Pro-18.png)
