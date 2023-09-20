@@ -1,0 +1,45 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.navbar_logo
+{
+    height: 50px;
+}
+
+
+.navbar_r{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    
+}
+.navbar_r_item{
+    width: 80px;
+
+}
+.navbar_r_item:hover, .signup_btn:hover{
+background-color: white;
+color: black;
+border-radius: 10px;
+padding: 5px;
+}
+
+
+.signup_btn{
+    background: transparent;
+    color: white;
+    border: transparent;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}

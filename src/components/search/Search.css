@@ -1,0 +1,10 @@
+.flex-align-center
+{
+    display: flex;
+
+    align-items: center;
+   
+}
+.margin-left-10{
+    margin-left: 10px;
+}

@@ -1,0 +1,179 @@
+.client-dash-u{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.client-dash{
+height: 100vh;
+}
+.client-dash-img{
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.dash-nav-ele{
+    display: flex;
+}
+.logo-dash{
+    height: 40px;
+    top: 10px;
+    left: 10vw;
+    position: absolute;
+
+}
+.client-dash-bg{
+    width: 90vw;
+    height: 180px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.box-client-dash-img-r{
+    background-color: rgba(0, 0, 0, 0.824);
+    width: 40vw;
+    height: 60px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-dash-icon{
+    color: white;
+    font-size: 30px;
+    margin-right: 30px;
+
+}
+.client-dash-u{
+    margin-top: -100px;
+
+}
+.dash-card
+{
+    width: 360px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding: 30px;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 15px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+.dash-card-head1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.dash-card-head2{
+    margin-top: 5px;
+    font-style: italic;
+}
+.dash-card-head3{
+    margin-top: 5px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.dash-card-body{
+    margin-top: 15px;
+    line-height: 23px;
+}
+.client-dash-l{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95vw;
+    
+}
+.dash-card-l-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gray{
+    color: gray;
+}
+.addwidth-to-dashcard{
+    width: 380px;
+}
+.dash-card-btn{
+    background-color: black;
+    color: white;
+    width: 200px;
+
+    font-weight: bolder;
+    text-align: center;
+
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dash-card-btn2{
+    color: black;
+    border: 1px solid black;
+    width: 320px;
+
+    font-weight: bolder;
+    text-align: center;
+
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.box-client-head1{
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.box-dash-icon-alt{
+    margin-right: 10px;
+}
+.box-dash-txt-alt{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.bg-dash-alt{
+    width: 95vw;
+    margin-top: 30px;
+    height: 100px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.home-text{
+    top: 20px;
+    right: 10vw;
+    position: absolute;
+    font-weight: bolder;
+    color: white;
+}
+.social_icon_footer-1{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+.social_icon_footer-1-line{
+    width: 35vw;
+    height: 5px;
+    background-color: black;
+}
+.social_icon_footer-1-icon{
+    margin: 10px;
+    font-size: 25px;
+}
+.dash-calendar{
+    margin-top: 30px;
+}
+.dash-client-r-l{
+    display: flex;
+    flex-direction: column;
+    
+}

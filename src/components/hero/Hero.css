@@ -1,0 +1,27 @@
+.hero{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero_img{
+    height: 500px;
+}
+.hero_l_text{
+    font-size: 50px;
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+}
+.social_icons_wrap{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.social_icon{
+    margin-right: 20px;
+}

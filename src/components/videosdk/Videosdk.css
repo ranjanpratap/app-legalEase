@@ -1,0 +1,55 @@
+.meeting-id-videosdk{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.meeting-btn
+{
+    background-color: black;
+    border: transparent;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.meeting-btn-alt
+{
+    border: 1px solid black;
+    color: black;background-color: transparent;
+    cursor: pointer;
+    
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.meeting-shadow{
+    border: 1px solid black;
+}
+.controls-meeting{
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: auto;
+}
+.meeting-icon{
+    font-size: 25px;
+}
+.center-it{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.meeting-btn-icon{
+    background-color: black;
+    color: white;
+    border: 10px;
+    font-weight: bolder;
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+}

@@ -1,0 +1,76 @@
+.advo-card{
+    width: 240px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 40px;
+
+}
+.advo-card-head1{
+    font-size: 20px;
+    font-weight: bolder;
+
+    
+    
+}
+.advo-card-head2{
+    font-size: 15px;
+    font-weight: bold;
+    
+
+}
+.advo-card-img{
+    width: 240px;
+    height: 250px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.advo-card-b{
+    padding: 15px;
+
+}
+
+.filters-client-dash{
+    display: flex;
+    flex-direction: column;
+}
+.filter-advo{
+    align-self: flex-end;
+    margin: 20px;
+}
+
+.client-dash-all-display{
+    display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth; /* Optional: Smooth scrolling */
+    width: 100%; /* Adjust to your desired width */
+
+  
+    
+}
+
+.advo-dash-head1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.wrap-all-filters{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+  
+
+  
+.legalease-logo{
+    position: absolute;
+    height: 50px;
+    left: 10px;
+    top: 10px;
+}
+
