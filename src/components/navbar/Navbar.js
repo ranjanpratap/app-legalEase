@@ -29,7 +29,7 @@ function Navbar() {
     return (
       <div className="navbar">
         <div className="navbar_l">
-          <img src={logo} className="navbar_logo" />
+          <img src={logo} alt="logo" className="navbar_logo" />
         </div>
 
         <div className="navbar_r">
@@ -61,7 +61,7 @@ function Navbar() {
 
             <button onClick={""} className="signup_btn">
               Dashboard
-            </button>         
+            </button>      
             </Link>
             </div>
          

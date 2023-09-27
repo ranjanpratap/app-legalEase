@@ -25,7 +25,7 @@ const Login = ({ isOpen, onClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const resp = await axios.get(
-      `http://localhost:5000/jwttoken?email=${email}&password=${password}`
+      `https://vast-dog-coat.cyclic.cloud/jwttoken?email=${email}&password=${password}`
     );
     if (resp.status == 201) {
       setloginsuccess(true);

@@ -22,10 +22,10 @@ export default function Advo() {
   const handlefilter = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/advocatefilter?expgt=${value[0]}&explt=${value[1]}&rgt=${rating}`
+        `https://vast-dog-coat.cyclic.cloud/advocatefilter?expgt=${value[0]}&explt=${value[1]}&rgt=${rating}`
       );
       console.log(
-        `http://localhost:5000/advocatefilter?expgt=${value[0]}&explt=9&rgt=${rating}`
+        `https://vast-dog-coat.cyclic.cloud/advocatefilter?expgt=${value[0]}&explt=9&rgt=${rating}`
       );
       console.log(value, rating, response, "---->");
       // Check if the response contains data
@@ -58,7 +58,7 @@ export default function Advo() {
     const getExpData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/advocatefilterexp`
+          `https://vast-dog-coat.cyclic.cloud/advocatefilterexp`
         );
 
         // Check if the response contains data
@@ -75,7 +75,7 @@ export default function Advo() {
     const getRatingData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/advocatefilterratings`
+          `https://vast-dog-coat.cyclic.cloud/advocatefilterratings`
         );
 
         // Check if the response contains data

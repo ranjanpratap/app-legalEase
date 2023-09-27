@@ -3,6 +3,7 @@ import React from 'react';
 import ChatBot from 'react-simple-chatbot';
 import Dropzone from 'react-dropzone';
 
+// const [collapse, setCollapse] = useState('false');
 
 function Chatbot() {
   const steps = [
@@ -64,7 +65,7 @@ function Chatbot() {
               <section>
                 <div {...getRootProps()}>
                   <input {...getInputProps()} />
-                  <button>click to select image</button>
+                  <button>Click to select image</button>
                 </div>
               </section>
             )}

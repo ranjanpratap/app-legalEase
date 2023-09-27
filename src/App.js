@@ -10,6 +10,7 @@ import Filter from './components/filter/Filter';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Videosdk from './components/videosdk/Videosdk';
 import Chatbot from './components/chatbot/Chatbot';
+import News from './components/newsletter/news';
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
         <Route exact path="/" element={<Hero/>} ></Route>
         <Route exact path="/dashboard/:id" element={<Client/>} ></Route>
         <Route exact path="/client" element={<Advo/>} ></Route>
+        <Route path="/news" element={<News/>}></Route>
+        <Route path="/news/attorney" element={<News newsName="attorney" />}></Route>
+        <Route path="/news/lawyer"element={<News newsName="lawyer" />}></Route>
+        <Route path="/news/advocate" element={<News newsName="advocate" />}></Route>
+        <Route path="/news/mediation" element={<News newsName="mediation" />}></Route>
       </Routes>
     </Router>
     

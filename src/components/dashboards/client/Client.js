@@ -21,6 +21,7 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import { Link, useParams } from "react-router-dom";
 import Videosdk from "../../videosdk/Videosdk";
+import Chatengine from "../../chatengine/Chatengine";
 
 function RegistrationData() {
   const [registrationID, setRegistrationId] = useState(null);
@@ -57,7 +58,7 @@ function RegistrationData() {
     };
     console.log(obj);
     const resp = await axios.post(
-      "http://localhost:5000/saveappointments",
+      "https://vast-dog-coat.cyclic.cloud/saveappointments",
       obj
     );
     console.log("-->", resp);
@@ -85,7 +86,7 @@ function RegistrationData() {
         // Fetch data only when the ID is available
         if (registrationID) {
           const response = await axios.get(
-            `http://localhost:5000/fetchRegistration?registrationID=${registrationID}`
+            `https://vast-dog-coat.cyclic.cloud/fetchRegistration?registrationID=${registrationID}`
           );
 
           if (response.data) {
@@ -104,7 +105,7 @@ function RegistrationData() {
         // Fetch data only when the ID is available
         if (registrationID) {
           const response = await axios.get(
-            `http://localhost:5000/getappointments?registrationID=${registrationID}`
+            `https://vast-dog-coat.cyclic.cloud/getappointments?registrationID=${registrationID}`
           );
 
           if (response.data) {
@@ -147,8 +148,7 @@ function RegistrationData() {
               </span>
             </div>
             <div className="box-client-dash-img-r-icons" style={{display:"flex"}}>
-              
-              <HiChatBubbleOvalLeft className="box-dash-icon" />
+              <Chatengine/>
               {/* <MdOutlineVoiceChat className="box-dash-icon" /> */}
               <Videosdk/>
             </div>

@@ -31,7 +31,7 @@ const Signup = ({ isOpen, onClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const resp = await axios.get(
-      `http://localhost:5000/getdetails?email=${email}&password=${password}`
+      `https://vast-dog-coat.cyclic.cloud/getdetails?email=${email}&password=${password}`
     );
     if (resp.status == 201) {
       setsignupsuccess(true);
