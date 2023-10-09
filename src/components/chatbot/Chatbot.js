@@ -1,7 +1,8 @@
 
-import React from 'react';
+import React, {useState} from 'react';
 import ChatBot from 'react-simple-chatbot';
 import Dropzone from 'react-dropzone';
+import '../chatbot/chatbot.css'
 
 // const [collapse, setCollapse] = useState('false');
 
@@ -261,15 +262,35 @@ function Chatbot() {
     
   ];
  
+  const [expanded, setExpanded] = useState(false);
+
+  const toggleChat = () => {
+    setExpanded(!expanded);
+  };
+
   return (
-    <div style={{ position:"fixed",bottom:"10px", right:"10px" }}>
-        <div style={{ maxWidth: "400px" }}>
-          <ChatBot
-            steps={steps}
-          />
+    <div className={`chat-bot-container ${expanded ? 'expanded' : ''}`}>
+      {expanded ? (
+        <div className="chat-bot">
+          <ChatBot steps ={steps}/>
         </div>
-      </div>
+      ) : (
+        <button className="chat-button" onClick={toggleChat}>
+          Chat
+        </button>
+      )}
+    </div>
   );
+
+  // return (
+  //   <div style={{ position:"fixed",bottom:"10px", right:"10px" }}>
+  //       <div style={{ maxWidth: "400px" }}>
+  //         <ChatBot
+  //           steps={steps}
+  //         />
+  //       </div>
+  //     </div>
+  // );
 }
 
 export default Chatbot;

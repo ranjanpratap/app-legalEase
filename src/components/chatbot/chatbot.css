@@ -1,0 +1,46 @@
+/* ... previous CSS styles ... */
+
+.chat-bot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* Adjust the right position to control the distance from the right edge */
+    transition: width 0.3s, height 0.3s;
+    z-index: 999;
+  }
+  
+  .chat-button {
+    width: 60px; /* Adjust the button size as needed */
+    height: 60px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    bottom: 0; /* Place it at the bottom */
+    right: 0; /* Place it at the right */
+  }
+  
+  /* ... remaining styles ... */
+.chat-bot {
+  width: 300px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+  
+  .chat-bot-container.expanded {
+    width: 300px; /* Adjust the width to match the chat bot's width */
+    height: 400px; /* Adjust the height to match the chat bot's height */
+  }
+  
+  .chat-button.expanded {
+    display: none;
+  }
