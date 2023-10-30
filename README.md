@@ -15,7 +15,8 @@ In conclusion, LegalEase's visionary approach, defensibility, and niche position
 
 ## Code Resources
 [Legal Ease backend](https://github.com/PranavChauhan22/legal-ease-backend) \
-[Legal Ease Portal](https://github.com/PranavChauhan22/legal-ease)
+[Legal Ease Portal](https://github.com/PranavChauhan22/legal-ease)\
+[Legal Ease App](https://github.com/PranavChauhan22/sih-app--legalease)
 
 ## Tech-Stack
 
