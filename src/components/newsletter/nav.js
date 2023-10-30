@@ -7,10 +7,10 @@ function Nav() {
         <img src={logo}/>
       </a>
       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4  md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-        <a class="mr-5 hover:text-gray-900" href="/news/attorney">Attorney</a>
-        <a class="mr-5 hover:text-gray-900" href="/news/lawyer">Lawyer</a>
-        <a class="mr-5 hover:text-gray-900" href="/news/advocate">Advocate</a>
-        <a class="mr-5 hover:text-gray-900" href="/news/mediation">Mediation</a>
+        <a class="mr-5 hover:text-gray-900" href="/news/attorney">Attorney</a>&nbsp
+        <a class="mr-5 hover:text-gray-900" href="/news/lawyer">Lawyer</a>&nbsp
+        <a class="mr-5 hover:text-gray-900" href="/news/advocate">Advocate</a>&nbsp
+        <a class="mr-5 hover:text-gray-900" href="/news/mediation">Mediation</a>&nbsp
 
       </nav>
     </div>

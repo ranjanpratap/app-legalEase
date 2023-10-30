@@ -1,0 +1,54 @@
+body {
+    background-color: BLACK; /* Set the background color to grey */
+  }
+  
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns in each row */
+    gap: 8px; /* Reduced spacing between cards */
+    overflow-x:scroll; /* Enable horizontal scrolling if needed */
+    padding: 16px; /* Add padding to the container */
+    /* max-width: fit-content; */
+  }
+  
+  .news-card {
+    background-color: white; /* Set the background color of the card to white */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    border: 2px solid #e2e8f0; /* Adjust border color */
+    border-radius: 8px; /* Adjust border radius */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    height: 98%; /* Set a fixed height for all cards */
+    max-width: 85%; /* Increase the max width by 45% */
+    margin: 8px; /* Add margin to create space between cards */
+  }
+  
+  .news-image {
+    max-width: auto;
+    max-height: 190px; /* Adjust the max height for images */
+  }
+  
+  .news-content {
+    flex: 1; /* Cover the other half of the card */
+    padding: 16px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 0.5;
+  }
+  
+  .news-title {
+    font-weight: bold;
+    font-size: 1.25rem; /* Adjust font size for title */
+  }
+  
+  .news-description {
+    font-size: 1rem; /* Adjust font size for description */
+    color: #555;
+  }
+  
+  .news-read-more {
+    font-weight: bold;
+    font-size: 1rem;
+   }
+  
