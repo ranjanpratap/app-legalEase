@@ -36,7 +36,7 @@ In conclusion, LegalEase's visionary approach, defensibility, and niche position
 - [SIH SS 3](https://i.ibb.co/Yfjr9r7/Whats-App-Image-2023-09-15-at-10-37-01-AM-2.jpg")
 - [SIH SS 4](https://i.ibb.co/9NVGS91/Whats-App-Image-2023-09-15-at-10-37-01-AM-1.jpg)
 
-## SIH App Screenshots: Legal Ease
+## SIH App Screenshots: Legal-Ease
 ![image1](https://i.ibb.co/hKpn6Cr/13-Pro-1.png)
 ![image2](https://i.ibb.co/jfH85F1/13-Pro-3.png)
 ![image3](https://i.ibb.co/dgctyHW/13-Pro-10.png)
